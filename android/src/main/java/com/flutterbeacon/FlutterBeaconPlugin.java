@@ -55,12 +55,12 @@ public class FlutterBeaconPlugin implements FlutterPlugin, ActivityAware, Method
 
   }
 
-  public static void registerWith(Registrar registrar) {
-    final FlutterBeaconPlugin instance = new FlutterBeaconPlugin();
-    instance.setupChannels(registrar.messenger(), registrar.activity());
-    registrar.addActivityResultListener(instance);
-    registrar.addRequestPermissionsResultListener(instance);
-  }
+//  public static void registerWith(Registrar registrar) {
+//    final FlutterBeaconPlugin instance = new FlutterBeaconPlugin();
+//    instance.setupChannels(registrar.messenger(), registrar.activity());
+//    registrar.addActivityResultListener(instance);
+//    registrar.addRequestPermissionsResultListener(instance);
+//  }
 
   @Override
   public void onAttachedToEngine(@NonNull FlutterPluginBinding binding) {
